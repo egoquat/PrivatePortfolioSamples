@@ -1,0 +1,4 @@
+COUNT 3
+OBJECT "../data/Char/Mesh/fork.jsd"
+OBJECT "../data/Char/Mesh/fork.jmd"
+OBJECT "../data/Char/Script/fork.jaf"

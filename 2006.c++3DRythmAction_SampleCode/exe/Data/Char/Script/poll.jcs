@@ -1,0 +1,14 @@
+COUNT 11
+OBJECT "../data/Char/Mesh/poll_body.jsd"
+OBJECT "../data/Char/Mesh/poll_face_basic.jsd"
+OBJECT "../data/Char/Mesh/poll_face_crash.jsd"
+OBJECT "../data/Char/Mesh/poll_face_cry.jsd"
+OBJECT "../data/Char/Mesh/poll_face_recommend.jsd"
+OBJECT "../data/Char/Mesh/poll_face_serious.jsd"
+OBJECT "../data/Char/Mesh/poll_face_smile.jsd"
+OBJECT "../data/Char/Mesh/poll_face_surprise.jsd"
+OBJECT "../data/Char/Mesh/poll_face_throb.jsd"
+OBJECT "../data/Char/Mesh/poll_ani.jmd"
+OBJECT "../data/Char/Script/poll.jaf"
+
+//기본 충돌 울기 원츄 진지 웃음 놀람 두근

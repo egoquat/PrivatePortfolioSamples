@@ -1,0 +1,26 @@
+﻿[ParticleTextureName]
+ptc_1.tga
+[Particle Kind]
+2
+[ParticleNumber]
+3
+[ParticleSize]
+2.000000
+[PariclePosition](X,Y,Z)
+0.000000 0.000000 0.000000
+[Gravity(X,Y,Z)]
+0.000000 -15.000000 0.000000
+[Wind(X,Y,Z)]
+0.000000 0.000000 0.000000
+[ParicleColor]
+10.000000 10.000000 10.000000
+[ParticleSpeed]
+25.000000
+[Particle LifeTime]
+1.000000
+[Particle ReStartTime]
+0.000000
+[Alpha]
+10.000000
+[ParticleRotation](X,Y,Z)
+0 0 0 4.000000

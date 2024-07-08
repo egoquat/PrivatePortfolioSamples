@@ -1,0 +1,26 @@
+[ParticleTextureName]
+particle001_b_s.dds
+[Particle Kind]
+2
+[ParticleNumber]
+25
+[ParticleSize]
+20.000000
+[PariclePosition](X,Y,Z)
+0.000000 3.000000 0.000000
+[Gravity(X,Y,Z)]
+0.000000 -16.000000 0.000000
+[Wind(X,Y,Z)]
+0.000000 0.000000 0.000000
+[ParicleColor]
+10.000000 10.000000 10.000000
+[ParticleSpeed]
+30.000000
+[Particle LifeTime]
+3.000000
+[Particle ReStartTime]
+0.500000
+[Alpha]
+10.000000
+[ParticleRotation](X,Y,Z)
+0 0 0 5.000000

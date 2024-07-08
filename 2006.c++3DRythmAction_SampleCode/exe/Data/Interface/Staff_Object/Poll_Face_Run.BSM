@@ -1,0 +1,870 @@
+#SANG_RYOL_MESH_FILE_EXPORT 1 Version.2006.04.21
+#Scene_Name	Poll.max
+#MATERIAL_LIST {
+	*Root_Material	1
+	#MATERIAL 0 {
+		*Ambient	    0.5882     0.5882     0.5882
+		*Diffuse	    0.5882     0.5882     0.5882
+		*Specular	    0.9000     0.9000     0.9000
+		*Sub_Material_Count 0
+		*BIT_MAP Poll_Face.tga
+	}
+}
+#GEOMOBJECTS {
+	*Mesh_ID	39
+	*Mesh_Name	face
+	*Is_Parent	0
+	*Mesh_ParentName	NULL
+	*Is_Bone	0
+	*Class_Name	PolyMeshObject
+	*Triangle_Count	130
+	*Vertex_Count	98
+	*Face_Count	130
+	*AnimationTrack_Count	0
+	*Is_Sub_Material	0
+	*Sub_Material_Count	0
+	*LOCAL_MATRIX
+		    0.0810     0.0000     0.0000     0.0000
+		    0.0000     0.0810     0.0000     0.0000
+		    0.0000     0.0000     0.0810     0.0000
+		    0.0000     0.0000     0.0000     1.0000
+	*WORLD_MATRIX
+		    0.0810     0.0000     0.0000     0.0000
+		    0.0000     0.0810     0.0000     0.0000
+		    0.0000     0.0000     0.0810     0.0000
+		    0.0000     0.0000     0.0000     1.0000
+	*INVERSE_MATRIX
+		   12.3461     0.0000     0.0000     0.0000
+		    0.0000    12.3461     0.0000     0.0000
+		    0.0000     0.0000    12.3461     0.0000
+		    0.0000     0.0000     0.0000     1.0000
+	#Collision_Info {
+		*Min	-0.9323	8.6039	-1.1131
+		*Max	0.9323	10.9897	0.8684
+		*Center	0.0000	-0.1223	9.7968
+		*Radius	14.0015
+	}
+	#Vertices_List {
+		0     0.9186     9.8561    -0.4784	    0.9431    -0.0449    -0.3294	     4294967295	    0.8307     0.3745
+		1
+		6	    1.0000	//Bip01 Head
+		1     0.7439     9.6432    -0.7029	    0.5876     0.1144    -0.8010	     4294967295	    0.7331     0.4602
+		1
+		6	    1.0000	//Bip01 Head
+		2     0.2698    10.3440    -0.8551	    0.3036     0.0522    -0.9514	     4294967295	    0.5703     0.2277
+		1
+		6	    1.0000	//Bip01 Head
+		3     0.4365     9.8597    -0.8297	    0.2787    -0.0378    -0.9596	     4294967295	    0.6275     0.3917
+		1
+		6	    1.0000	//Bip01 Head
+		4     0.1130     9.5325    -1.0562	    0.5941    -0.0228    -0.8041	     4294967295	    0.5165     0.5127
+		1
+		6	    1.0000	//Bip01 Head
+		5     0.0848     9.8951    -0.9002	    0.3920     0.1146    -0.9128	     4294967295	    0.5068     0.3826
+		1
+		6	    1.0000	//Bip01 Head
+		6     0.2449     9.5962    -0.8429	    0.5095     0.1559    -0.8462	     4294967295	    0.5618     0.4821
+		1
+		6	    1.0000	//Bip01 Head
+		7     0.2792     9.4453    -0.8654	    0.4491    -0.0254    -0.8931	     4294967295	    0.5736     0.5306
+		1
+		6	    1.0000	//Bip01 Head
+		8     0.0000     9.1561    -0.8918	    0.0000    -0.5437    -0.8393	     4294967295	    0.4753     0.6434
+		1
+		6	    1.0000	//Bip01 Head
+		9     0.7640     9.8235    -0.6566	    0.6366     0.0395    -0.7702	     4294967295	    0.7400     0.3968
+		1
+		6	    1.0000	//Bip01 Head
+		10     0.1913     9.8744    -0.8611	    0.2473    -0.0201    -0.9687	     4294967295	    0.5434     0.3880
+		1
+		6	    1.0000	//Bip01 Head
+		11     0.4396    10.9429    -0.7580	    0.3103     0.1049    -0.9448	     4294967295	    0.6286     0.0195
+		1
+		6	    1.0000	//Bip01 Head
+		12     0.0000    10.9897    -0.8462	    0.0000     0.1216    -0.9926	     4294967295	    0.4777     0.0072
+		1
+		6	    1.0000	//Bip01 Head
+		13     0.7496    10.2635    -0.7017	    0.6189     0.0493    -0.7839	     4294967295	    0.7351     0.2487
+		1
+		6	    1.0000	//Bip01 Head
+		14     0.6171     9.2193    -0.7325	    0.5709    -0.5785    -0.5826	     4294967295	    0.6982     0.6059
+		1
+		6	    1.0000	//Bip01 Head
+		15     0.0771     9.3540    -0.9548	    0.4432    -0.4106    -0.7968	     4294967295	    0.5024     0.5652
+		1
+		6	    1.0000	//Bip01 Head
+		16     0.1306     9.1633    -0.8605	    0.2603    -0.5268    -0.8091	     4294967295	    0.5201     0.6396
+		1
+		6	    1.0000	//Bip01 Head
+		17     0.7333     9.4972    -0.7507	    0.5988    -0.0456    -0.7996	     4294967295	    0.7294     0.5119
+		1
+		6	    1.0000	//Bip01 Head
+		18     0.2544     9.1959    -0.8363	    0.3073    -0.4224    -0.8527	     4294967295	    0.5630     0.6283
+		1
+		6	    1.0000	//Bip01 Head
+		19     0.7678    10.7894    -0.5993	    0.6257     0.1281    -0.7695	     4294967295	    0.7413     0.0652
+		1
+		6	    1.0000	//Bip01 Head
+		20     0.9323    10.4853    -0.3725	    0.8990     0.0549    -0.4345	     4294967295	    0.8384     0.1594
+		1
+		6	    1.0000	//Bip01 Head
+		21     0.7391     9.2864    -0.3623	    0.7468    -0.6503     0.1395	     4294967295	    0.8616     0.6055
+		1
+		6	    1.0000	//Bip01 Head
+		22     0.8495     9.5457    -0.5704	    0.9146    -0.2383    -0.3266	     4294967295	    0.8111     0.4879
+		1
+		6	    1.0000	//Bip01 Head
+		23     0.0000     9.9025    -0.9281	    0.0000     0.1908    -0.9816	     4294967295	    0.4777     0.3812
+		1
+		6	    1.0000	//Bip01 Head
+		24     0.9183     9.6868    -0.0838	    0.8677    -0.4608     0.1864	     4294967295	    0.9626     0.4013
+		1
+		6	    1.0000	//Bip01 Head
+		25    -0.7439     9.6432    -0.7029	   -0.5794     0.1142    -0.8070	     4294967295	    0.2223     0.4602
+		1
+		6	    1.0000	//Bip01 Head
+		26    -0.9186     9.8561    -0.4784	   -0.9474    -0.0517    -0.3157	     4294967295	    0.1364     0.3782
+		1
+		6	    1.0000	//Bip01 Head
+		27    -0.7747     9.8235    -0.6566	   -0.6362     0.0141    -0.7714	     4294967295	    0.2118     0.3968
+		1
+		6	    1.0000	//Bip01 Head
+		28    -0.7654    10.2635    -0.7017	   -0.6260     0.0443    -0.7785	     4294967295	    0.2149     0.2487
+		1
+		6	    1.0000	//Bip01 Head
+		29    -0.2698    10.3440    -0.8551	   -0.3044     0.0448    -0.9515	     4294967295	    0.3851     0.2277
+		1
+		6	    1.0000	//Bip01 Head
+		30    -0.4364     9.8575    -0.8118	   -0.2859    -0.0289    -0.9578	     4294967295	    0.3279     0.3917
+		1
+		6	    1.0000	//Bip01 Head
+		31    -0.1913     9.8744    -0.8611	   -0.2775    -0.0198    -0.9605	     4294967295	    0.4120     0.3880
+		1
+		6	    1.0000	//Bip01 Head
+		32    -0.2449     9.5962    -0.8429	   -0.5157     0.1674    -0.8403	     4294967295	    0.3936     0.4821
+		1
+		6	    1.0000	//Bip01 Head
+		33    -0.0848     9.8951    -0.9002	   -0.3920     0.1146    -0.9128	     4294967295	    0.4486     0.3826
+		1
+		6	    1.0000	//Bip01 Head
+		34     0.0000    10.3730    -0.9556	    0.0000     0.0673    -0.9977	     4294967295	    0.4777     0.2220
+		1
+		6	    1.0000	//Bip01 Head
+		35     0.0000     9.5192    -1.1131	    0.0000    -0.0945    -0.9955	     4294967295	    0.4777     0.5196
+		1
+		6	    1.0000	//Bip01 Head
+		36    -0.1130     9.5325    -1.0562	   -0.5941    -0.0228    -0.8041	     4294967295	    0.4389     0.5127
+		1
+		6	    1.0000	//Bip01 Head
+		37     0.0000     9.3527    -1.0014	    0.0000    -0.5330    -0.8461	     4294967295	    0.4759     0.5676
+		1
+		6	    1.0000	//Bip01 Head
+		38    -0.0771     9.3540    -0.9548	   -0.4432    -0.4106    -0.7968	     4294967295	    0.4494     0.5652
+		1
+		6	    1.0000	//Bip01 Head
+		39    -0.2792     9.4453    -0.8654	   -0.4491    -0.0254    -0.8931	     4294967295	    0.3819     0.5306
+		1
+		6	    1.0000	//Bip01 Head
+		40    -0.7333     9.4972    -0.7507	   -0.5988    -0.0456    -0.7996	     4294967295	    0.2260     0.5119
+		1
+		6	    1.0000	//Bip01 Head
+		41    -0.1306     9.1633    -0.8605	   -0.2603    -0.5268    -0.8091	     4294967295	    0.4305     0.6396
+		1
+		6	    1.0000	//Bip01 Head
+		42    -0.4396    10.9429    -0.7580	   -0.3082     0.1087    -0.9451	     4294967295	    0.3268     0.0195
+		1
+		6	    1.0000	//Bip01 Head
+		43    -0.7678    10.7894    -0.5993	   -0.6304     0.1456    -0.7625	     4294967295	    0.2141     0.0652
+		1
+		6	    1.0000	//Bip01 Head
+		44    -0.2544     9.1959    -0.8363	   -0.3073    -0.4224    -0.8527	     4294967295	    0.3883     0.6283
+		1
+		6	    1.0000	//Bip01 Head
+		45    -0.6171     9.2193    -0.7325	   -0.5709    -0.5785    -0.5826	     4294967295	    0.2502     0.6040
+		1
+		6	    1.0000	//Bip01 Head
+		46    -0.8495     9.5457    -0.5704	   -0.9146    -0.2383    -0.3266	     4294967295	    0.1583     0.4879
+		1
+		6	    1.0000	//Bip01 Head
+		47    -0.9323    10.4853    -0.3725	   -0.9091     0.0637    -0.4117	     4294967295	    0.0970     0.1499
+		1
+		6	    1.0000	//Bip01 Head
+		48     0.0000     8.9489    -0.7019	    0.0000    -0.8964    -0.4433	     4294967295	    0.4761     0.7301
+		1
+		6	    1.0000	//Bip01 Head
+		49    -0.4525     9.0819    -0.5307	   -0.4631    -0.8852    -0.0449	     4294967295	    0.2738     0.6802
+		1
+		6	    1.0000	//Bip01 Head
+		50    -0.7391     9.2864    -0.3623	   -0.7468    -0.6503     0.1394	     4294967295	    0.1512     0.6016
+		1
+		6	    1.0000	//Bip01 Head
+		51    -0.9183     9.6868    -0.0839	   -0.8677    -0.4608     0.1863	     4294967295	    0.0047     0.4421
+		1
+		6	    1.0000	//Bip01 Head
+		52     0.1147     8.9656    -0.6864	    0.2710    -0.8815    -0.3867	     4294967295	    0.5155     0.7299
+		1
+		6	    1.0000	//Bip01 Head
+		53    -0.4582     9.8345     0.7126	   -0.2316    -0.6978     0.6778	     4294967295	    0.9391     0.7250
+		1
+		6	    1.0000	//Bip01 Head
+		54    -0.1778     9.0024    -0.0399	   -0.6896    -0.6556    -0.3075	     4294967295	    0.6162     0.8974
+		1
+		5	    1.0000	//Bip01 Neck
+		55    -0.1984     9.2617     0.2118	   -0.5312    -0.3600     0.7669	     4294967295	    0.7433     0.8648
+		1
+		5	    1.0000	//Bip01 Neck
+		56    -0.7395     9.7692     0.4665	   -0.4942    -0.7147     0.4949	     4294967295	    0.9118     0.7093
+		1
+		6	    1.0000	//Bip01 Head
+		57    -0.2777     9.1641     0.0579	   -0.8006    -0.4625     0.3809	     4294967295	    0.6711     0.8608
+		1
+		5	    1.0000	//Bip01 Neck
+		58    -0.0000     9.9210     0.8684	   -0.0000    -0.6847     0.7288	     4294967295	    0.9818     0.7531
+		1
+		6	    1.0000	//Bip01 Head
+		59    -0.1778     8.6944     0.0459	   -0.4490    -0.2398    -0.8608	     4294967295	    0.6162     0.9784
+		1
+		4	    1.0000	//Bip01 Spine1
+		60    -0.1984     8.9537     0.2976	   -0.7504     0.1774     0.6368	     4294967295	    0.7068     0.9419
+		1
+		4	    1.0000	//Bip01 Spine1
+		61    -0.2777     8.8562     0.1437	   -0.9686    -0.0667    -0.2394	     4294967295	    0.6729     0.9518
+		1
+		4	    1.0000	//Bip01 Spine1
+		62     0.0000     8.6039     0.0237	    0.0000    -0.2683    -0.9633	     4294967295	    0.5533     0.9904
+		1
+		4	    1.0000	//Bip01 Spine1
+		63    -0.1147     8.9656    -0.6864	   -0.2710    -0.8815    -0.3867	     4294967295	    0.4326     0.7276
+		1
+		6	    1.0000	//Bip01 Head
+		64     0.4582     9.8345     0.7126	    0.2316    -0.6978     0.6778	     4294967295	    0.9391     0.7250
+		1
+		6	    1.0000	//Bip01 Head
+		65     0.1778     9.0024    -0.0399	    0.6896    -0.6556    -0.3075	     4294967295	    0.6162     0.8974
+		1
+		5	    1.0000	//Bip01 Neck
+		66     0.1984     9.2617     0.2118	    0.5312    -0.3600     0.7669	     4294967295	    0.7433     0.8648
+		1
+		5	    1.0000	//Bip01 Neck
+		67     0.7395     9.7692     0.4665	    0.4942    -0.7147     0.4949	     4294967295	    0.9118     0.7093
+		1
+		6	    1.0000	//Bip01 Head
+		68     0.2777     9.1641     0.0579	    0.8006    -0.4625     0.3809	     4294967295	    0.6711     0.8608
+		1
+		5	    1.0000	//Bip01 Neck
+		69     0.0000     9.3021     0.3096	    0.0000    -0.3284     0.9445	     4294967295	    0.7725     0.8698
+		1
+		5	    1.0000	//Bip01 Neck
+		70     0.0000     8.9119    -0.0621	   -0.0000    -0.7362    -0.6768	     4294967295	    0.5533     0.9218
+		1
+		5	    1.0000	//Bip01 Neck
+		71     0.1778     8.6944     0.0459	    0.4490    -0.2398    -0.8608	     4294967295	    0.6162     0.9784
+		1
+		4	    1.0000	//Bip01 Spine1
+		72     0.1984     8.9537     0.2976	    0.7504     0.1774     0.6368	     4294967295	    0.7068     0.9419
+		1
+		4	    1.0000	//Bip01 Spine1
+		73     0.2777     8.8562     0.1437	    0.9686    -0.0667    -0.2394	     4294967295	    0.6729     0.9518
+		1
+		4	    1.0000	//Bip01 Spine1
+		74     0.0000     8.9942     0.3954	    0.0000     0.2683     0.9633	     4294967295	    0.7369     0.9410
+		1
+		4	    1.0000	//Bip01 Spine1
+		75     0.4525     9.0819    -0.5307	    0.4631    -0.8852    -0.0449	     4294967295	    0.7177     0.6974
+		1
+		6	    1.0000	//Bip01 Head
+		76     0.0000     8.9489    -0.7019	    0.0000    -0.8964    -0.4433	     4294967295	    0.5533     0.7852
+		1
+		6	    1.0000	//Bip01 Head
+		77     0.0000     8.9489    -0.7019	    0.0000    -0.8964    -0.4433	     4294967295	    0.5533     0.7852
+		1
+		6	    1.0000	//Bip01 Head
+		78     0.1147     8.9656    -0.6864	    0.2710    -0.8815    -0.3867	     4294967295	    0.5864     0.7780
+		1
+		6	    1.0000	//Bip01 Head
+		79     0.1147     8.9656    -0.6864	    0.2710    -0.8815    -0.3867	     4294967295	    0.5864     0.7780
+		1
+		6	    1.0000	//Bip01 Head
+		80     0.1147     8.9656    -0.6864	    0.2710    -0.8815    -0.3867	     4294967295	    0.5864     0.7780
+		1
+		6	    1.0000	//Bip01 Head
+		81     0.4525     9.0819    -0.5307	    0.4631    -0.8852    -0.0449	     4294967295	    0.6616     0.7501
+		1
+		6	    1.0000	//Bip01 Head
+		82     0.4525     9.0819    -0.5307	    0.4631    -0.8852    -0.0449	     4294967295	    0.6616     0.7501
+		1
+		6	    1.0000	//Bip01 Head
+		83     0.9183     9.6868    -0.0838	    0.8677    -0.4608     0.1864	     4294967295	    0.8181     0.6551
+		1
+		6	    1.0000	//Bip01 Head
+		84     0.9183     9.6868    -0.0838	    0.8677    -0.4608     0.1864	     4294967295	    0.8181     0.6551
+		1
+		6	    1.0000	//Bip01 Head
+		85     0.7391     9.2864    -0.3623	    0.7468    -0.6503     0.1395	     4294967295	    0.7365     0.6961
+		1
+		6	    1.0000	//Bip01 Head
+		86     0.7391     9.2864    -0.3623	    0.7468    -0.6503     0.1395	     4294967295	    0.7365     0.6961
+		1
+		6	    1.0000	//Bip01 Head
+		87     0.7391     9.2864    -0.3623	    0.7468    -0.6503     0.1395	     4294967295	    0.7365     0.6961
+		1
+		6	    1.0000	//Bip01 Head
+		88    -0.1147     8.9656    -0.6864	   -0.2710    -0.8815    -0.3867	     4294967295	    0.5864     0.7780
+		1
+		6	    1.0000	//Bip01 Head
+		89    -0.1147     8.9656    -0.6864	   -0.2710    -0.8815    -0.3867	     4294967295	    0.5864     0.7780
+		1
+		6	    1.0000	//Bip01 Head
+		90    -0.1147     8.9656    -0.6864	   -0.2710    -0.8815    -0.3867	     4294967295	    0.5864     0.7780
+		1
+		6	    1.0000	//Bip01 Head
+		91    -0.4525     9.0819    -0.5307	   -0.4631    -0.8852    -0.0449	     4294967295	    0.6616     0.7501
+		1
+		6	    1.0000	//Bip01 Head
+		92    -0.4525     9.0819    -0.5307	   -0.4631    -0.8852    -0.0449	     4294967295	    0.6616     0.7501
+		1
+		6	    1.0000	//Bip01 Head
+		93    -0.9183     9.6868    -0.0839	   -0.8677    -0.4608     0.1863	     4294967295	    0.8181     0.6551
+		1
+		6	    1.0000	//Bip01 Head
+		94    -0.9183     9.6868    -0.0839	   -0.8677    -0.4608     0.1863	     4294967295	    0.8181     0.6551
+		1
+		6	    1.0000	//Bip01 Head
+		95    -0.7391     9.2864    -0.3623	   -0.7468    -0.6503     0.1394	     4294967295	    0.7365     0.6961
+		1
+		6	    1.0000	//Bip01 Head
+		96    -0.7391     9.2864    -0.3623	   -0.7468    -0.6503     0.1394	     4294967295	    0.7365     0.6961
+		1
+		6	    1.0000	//Bip01 Head
+		97    -0.7391     9.2864    -0.3623	   -0.7468    -0.6503     0.1394	     4294967295	    0.7365     0.6961
+		1
+		6	    1.0000	//Bip01 Head
+	}
+	#IndexGroup_List {
+		*IndexGroup_Count 1
+		#Triangle_List 0 {
+			*Triangle_Count 130
+			#Indexed(Triangle) 0
+				*Vertex_ID	1	9	0
+				*Face_Normal     0.7449     0.0865    -0.6616
+				*Face_ID 0
+			#Indexed(Triangle) 1
+				*Vertex_ID	0	9	13
+				*Face_Normal     0.7587    -0.0418    -0.6501
+				*Face_ID 1
+			#Indexed(Triangle) 2
+				*Vertex_ID	13	3	2
+				*Face_Normal     0.3127     0.0579    -0.9481
+				*Face_ID 2
+			#Indexed(Triangle) 3
+				*Vertex_ID	2	3	10
+				*Face_Normal     0.1268    -0.0083    -0.9919
+				*Face_ID 3
+			#Indexed(Triangle) 4
+				*Vertex_ID	6	10	3
+				*Face_Normal     0.1248    -0.0412    -0.9913
+				*Face_ID 4
+			#Indexed(Triangle) 5
+				*Vertex_ID	6	3	1
+				*Face_Normal     0.2804    -0.1566    -0.9470
+				*Face_ID 5
+			#Indexed(Triangle) 6
+				*Vertex_ID	5	34	2
+				*Face_Normal     0.3443    -0.0477    -0.9376
+				*Face_ID 6
+			#Indexed(Triangle) 7
+				*Vertex_ID	34	5	23
+				*Face_Normal     0.3074    -0.0557    -0.9499
+				*Face_ID 7
+			#Indexed(Triangle) 8
+				*Vertex_ID	5	35	23
+				*Face_Normal     0.3167     0.4123    -0.8542
+				*Face_ID 8
+			#Indexed(Triangle) 9
+				*Vertex_ID	35	5	4
+				*Face_Normal     0.3767     0.3906    -0.8399
+				*Face_ID 9
+			#Indexed(Triangle) 10
+				*Vertex_ID	4	37	35
+				*Face_Normal     0.4354    -0.5015    -0.7476
+				*Face_ID 10
+			#Indexed(Triangle) 11
+				*Vertex_ID	37	4	15
+				*Face_Normal     0.4515    -0.5074    -0.7339
+				*Face_ID 11
+			#Indexed(Triangle) 12
+				*Vertex_ID	4	5	6
+				*Face_Normal     0.7676     0.3028    -0.5649
+				*Face_ID 12
+			#Indexed(Triangle) 13
+				*Vertex_ID	4	7	15
+				*Face_Normal     0.5289    -0.4969    -0.6880
+				*Face_ID 13
+			#Indexed(Triangle) 14
+				*Vertex_ID	7	4	6
+				*Face_Normal     0.7838     0.2625    -0.5628
+				*Face_ID 14
+			#Indexed(Triangle) 15
+				*Vertex_ID	1	7	6
+				*Face_Normal     0.2474     0.1980    -0.9485
+				*Face_ID 15
+			#Indexed(Triangle) 16
+				*Vertex_ID	7	1	17
+				*Face_Normal     0.2029     0.2914    -0.9348
+				*Face_ID 16
+			#Indexed(Triangle) 17
+				*Vertex_ID	15	8	37
+				*Face_Normal     0.4720    -0.4291    -0.7701
+				*Face_ID 17
+			#Indexed(Triangle) 18
+				*Vertex_ID	8	15	16
+				*Face_Normal     0.2357    -0.3770    -0.8957
+				*Face_ID 18
+			#Indexed(Triangle) 19
+				*Vertex_ID	13	9	3
+				*Face_Normal     0.4592    -0.0757    -0.8851
+				*Face_ID 19
+			#Indexed(Triangle) 20
+				*Vertex_ID	9	1	3
+				*Face_Normal     0.4749     0.1685    -0.8638
+				*Face_ID 20
+			#Indexed(Triangle) 21
+				*Vertex_ID	2	10	5
+				*Face_Normal     0.3361    -0.0440    -0.9408
+				*Face_ID 21
+			#Indexed(Triangle) 22
+				*Vertex_ID	10	6	5
+				*Face_Normal     0.3448     0.0046    -0.9387
+				*Face_ID 22
+			#Indexed(Triangle) 23
+				*Vertex_ID	12	2	34
+				*Face_Normal     0.3599     0.1630    -0.9186
+				*Face_ID 23
+			#Indexed(Triangle) 24
+				*Vertex_ID	2	12	11
+				*Face_Normal     0.2059     0.0994    -0.9735
+				*Face_ID 24
+			#Indexed(Triangle) 25
+				*Vertex_ID	11	13	2
+				*Face_Normal     0.3136     0.0646    -0.9474
+				*Face_ID 25
+			#Indexed(Triangle) 26
+				*Vertex_ID	13	11	19
+				*Face_Normal     0.4865     0.1507    -0.8606
+				*Face_ID 26
+			#Indexed(Triangle) 27
+				*Vertex_ID	17	18	7
+				*Face_Normal     0.2574    -0.1375    -0.9565
+				*Face_ID 27
+			#Indexed(Triangle) 28
+				*Vertex_ID	18	17	14
+				*Face_Normal     0.2812    -0.1792    -0.9428
+				*Face_ID 28
+			#Indexed(Triangle) 29
+				*Vertex_ID	18	15	7
+				*Face_Normal     0.4554    -0.1480    -0.8779
+				*Face_ID 29
+			#Indexed(Triangle) 30
+				*Vertex_ID	15	18	16
+				*Face_Normal     0.2708    -0.3647    -0.8909
+				*Face_ID 30
+			#Indexed(Triangle) 31
+				*Vertex_ID	1	22	17
+				*Face_Normal     0.8184     0.1242    -0.5611
+				*Face_ID 31
+			#Indexed(Triangle) 32
+				*Vertex_ID	22	1	0
+				*Face_Normal     0.7851     0.0089    -0.6193
+				*Face_ID 32
+			#Indexed(Triangle) 33
+				*Vertex_ID	13	20	0
+				*Face_Normal     0.8519     0.0687    -0.5192
+				*Face_ID 33
+			#Indexed(Triangle) 34
+				*Vertex_ID	20	13	19
+				*Face_Normal     0.8507     0.0719    -0.5206
+				*Face_ID 34
+			#Indexed(Triangle) 35
+				*Vertex_ID	16	48	8
+				*Face_Normal     0.2095    -0.6607    -0.7208
+				*Face_ID 35
+			#Indexed(Triangle) 36
+				*Vertex_ID	48	16	52
+				*Face_Normal     0.1940    -0.6569    -0.7286
+				*Face_ID 36
+			#Indexed(Triangle) 37
+				*Vertex_ID	16	18	52
+				*Face_Normal     0.3069    -0.6426    -0.7020
+				*Face_ID 37
+			#Indexed(Triangle) 38
+				*Vertex_ID	14	52	18
+				*Face_Normal     0.2507    -0.6300    -0.7350
+				*Face_ID 38
+			#Indexed(Triangle) 39
+				*Vertex_ID	52	14	75
+				*Face_Normal     0.4174    -0.8727    -0.2535
+				*Face_ID 39
+			#Indexed(Triangle) 40
+				*Vertex_ID	0	24	22
+				*Face_Normal     0.9777    -0.1932    -0.0821
+				*Face_ID 40
+			#Indexed(Triangle) 41
+				*Vertex_ID	21	75	14
+				*Face_Normal     0.6005    -0.7978    -0.0532
+				*Face_ID 41
+			#Indexed(Triangle) 42
+				*Vertex_ID	17	22	14
+				*Face_Normal     0.8225    -0.3718    -0.4304
+				*Face_ID 42
+			#Indexed(Triangle) 43
+				*Vertex_ID	22	24	21
+				*Face_Normal     0.9161    -0.4007    -0.0132
+				*Face_ID 43
+			#Indexed(Triangle) 44
+				*Vertex_ID	22	21	14
+				*Face_Normal     0.8417    -0.5071    -0.1854
+				*Face_ID 44
+			#Indexed(Triangle) 45
+				*Vertex_ID	20	24	0
+				*Face_Normal     0.9998    -0.0205    -0.0080
+				*Face_ID 45
+			#Indexed(Triangle) 46
+				*Vertex_ID	25	26	27
+				*Face_Normal    -0.7752     0.0294    -0.6310
+				*Face_ID 46
+			#Indexed(Triangle) 47
+				*Vertex_ID	26	28	27
+				*Face_Normal    -0.7815    -0.0473    -0.6221
+				*Face_ID 47
+			#Indexed(Triangle) 48
+				*Vertex_ID	28	29	30
+				*Face_Normal    -0.2980     0.0173    -0.9544
+				*Face_ID 48
+			#Indexed(Triangle) 49
+				*Vertex_ID	29	31	30
+				*Face_Normal    -0.1959    -0.0200    -0.9804
+				*Face_ID 49
+			#Indexed(Triangle) 50
+				*Vertex_ID	32	30	31
+				*Face_Normal    -0.1954    -0.0268    -0.9804
+				*Face_ID 50
+			#Indexed(Triangle) 51
+				*Vertex_ID	32	25	30
+				*Face_Normal    -0.2768    -0.0893    -0.9568
+				*Face_ID 51
+			#Indexed(Triangle) 52
+				*Vertex_ID	33	34	23
+				*Face_Normal    -0.3074    -0.0557    -0.9499
+				*Face_ID 52
+			#Indexed(Triangle) 53
+				*Vertex_ID	34	33	29
+				*Face_Normal    -0.3443    -0.0477    -0.9376
+				*Face_ID 53
+			#Indexed(Triangle) 54
+				*Vertex_ID	33	35	36
+				*Face_Normal    -0.3767     0.3906    -0.8399
+				*Face_ID 54
+			#Indexed(Triangle) 55
+				*Vertex_ID	35	33	23
+				*Face_Normal    -0.3167     0.4123    -0.8542
+				*Face_ID 55
+			#Indexed(Triangle) 56
+				*Vertex_ID	36	37	38
+				*Face_Normal    -0.4515    -0.5074    -0.7339
+				*Face_ID 56
+			#Indexed(Triangle) 57
+				*Vertex_ID	37	36	35
+				*Face_Normal    -0.4354    -0.5015    -0.7476
+				*Face_ID 57
+			#Indexed(Triangle) 58
+				*Vertex_ID	36	32	33
+				*Face_Normal    -0.7676     0.3028    -0.5649
+				*Face_ID 58
+			#Indexed(Triangle) 59
+				*Vertex_ID	36	39	32
+				*Face_Normal    -0.7838     0.2625    -0.5628
+				*Face_ID 59
+			#Indexed(Triangle) 60
+				*Vertex_ID	39	36	38
+				*Face_Normal    -0.5289    -0.4969    -0.6880
+				*Face_ID 60
+			#Indexed(Triangle) 61
+				*Vertex_ID	25	39	40
+				*Face_Normal    -0.2029     0.2914    -0.9349
+				*Face_ID 61
+			#Indexed(Triangle) 62
+				*Vertex_ID	39	25	32
+				*Face_Normal    -0.2474     0.1980    -0.9485
+				*Face_ID 62
+			#Indexed(Triangle) 63
+				*Vertex_ID	38	8	41
+				*Face_Normal    -0.2357    -0.3770    -0.8957
+				*Face_ID 63
+			#Indexed(Triangle) 64
+				*Vertex_ID	8	38	37
+				*Face_Normal    -0.4720    -0.4291    -0.7701
+				*Face_ID 64
+			#Indexed(Triangle) 65
+				*Vertex_ID	28	30	27
+				*Face_Normal    -0.4085    -0.0846    -0.9088
+				*Face_ID 65
+			#Indexed(Triangle) 66
+				*Vertex_ID	27	30	25
+				*Face_Normal    -0.4248     0.1561    -0.8917
+				*Face_ID 66
+			#Indexed(Triangle) 67
+				*Vertex_ID	29	33	31
+				*Face_Normal    -0.3361    -0.0440    -0.9408
+				*Face_ID 67
+			#Indexed(Triangle) 68
+				*Vertex_ID	31	33	32
+				*Face_Normal    -0.3448     0.0046    -0.9387
+				*Face_ID 68
+			#Indexed(Triangle) 69
+				*Vertex_ID	12	29	42
+				*Face_Normal    -0.2059     0.0994    -0.9735
+				*Face_ID 69
+			#Indexed(Triangle) 70
+				*Vertex_ID	29	12	34
+				*Face_Normal    -0.3599     0.1630    -0.9186
+				*Face_ID 70
+			#Indexed(Triangle) 71
+				*Vertex_ID	42	28	43
+				*Face_Normal    -0.4906     0.1644    -0.8558
+				*Face_ID 71
+			#Indexed(Triangle) 72
+				*Vertex_ID	28	42	29
+				*Face_Normal    -0.3048     0.0675    -0.9500
+				*Face_ID 72
+			#Indexed(Triangle) 73
+				*Vertex_ID	40	44	45
+				*Face_Normal    -0.2812    -0.1792    -0.9428
+				*Face_ID 73
+			#Indexed(Triangle) 74
+				*Vertex_ID	44	40	39
+				*Face_Normal    -0.2574    -0.1375    -0.9565
+				*Face_ID 74
+			#Indexed(Triangle) 75
+				*Vertex_ID	44	38	41
+				*Face_Normal    -0.2707    -0.3647    -0.8909
+				*Face_ID 75
+			#Indexed(Triangle) 76
+				*Vertex_ID	38	44	39
+				*Face_Normal    -0.4554    -0.1480    -0.8779
+				*Face_ID 76
+			#Indexed(Triangle) 77
+				*Vertex_ID	25	46	26
+				*Face_Normal    -0.7851     0.0089    -0.6193
+				*Face_ID 77
+			#Indexed(Triangle) 78
+				*Vertex_ID	46	25	40
+				*Face_Normal    -0.8184     0.1242    -0.5611
+				*Face_ID 78
+			#Indexed(Triangle) 79
+				*Vertex_ID	28	47	43
+				*Face_Normal    -0.8613     0.0933    -0.4995
+				*Face_ID 79
+			#Indexed(Triangle) 80
+				*Vertex_ID	47	28	26
+				*Face_Normal    -0.8726     0.0624    -0.4845
+				*Face_ID 80
+			#Indexed(Triangle) 81
+				*Vertex_ID	41	48	63
+				*Face_Normal    -0.1940    -0.6569    -0.7286
+				*Face_ID 81
+			#Indexed(Triangle) 82
+				*Vertex_ID	48	41	8
+				*Face_Normal    -0.2095    -0.6607    -0.7208
+				*Face_ID 82
+			#Indexed(Triangle) 83
+				*Vertex_ID	41	63	44
+				*Face_Normal    -0.3069    -0.6426    -0.7020
+				*Face_ID 83
+			#Indexed(Triangle) 84
+				*Vertex_ID	45	63	49
+				*Face_Normal    -0.4174    -0.8727    -0.2535
+				*Face_ID 84
+			#Indexed(Triangle) 85
+				*Vertex_ID	63	45	44
+				*Face_Normal    -0.2507    -0.6300    -0.7350
+				*Face_ID 85
+			#Indexed(Triangle) 86
+				*Vertex_ID	26	46	51
+				*Face_Normal    -0.9777    -0.1932    -0.0821
+				*Face_ID 86
+			#Indexed(Triangle) 87
+				*Vertex_ID	50	45	49
+				*Face_Normal    -0.6005    -0.7978    -0.0532
+				*Face_ID 87
+			#Indexed(Triangle) 88
+				*Vertex_ID	40	45	46
+				*Face_Normal    -0.8225    -0.3718    -0.4304
+				*Face_ID 88
+			#Indexed(Triangle) 89
+				*Vertex_ID	46	50	51
+				*Face_Normal    -0.9161    -0.4007    -0.0132
+				*Face_ID 89
+			#Indexed(Triangle) 90
+				*Vertex_ID	46	45	50
+				*Face_Normal    -0.8417    -0.5071    -0.1854
+				*Face_ID 90
+			#Indexed(Triangle) 91
+				*Vertex_ID	47	26	51
+				*Face_Normal    -0.9998    -0.0205    -0.0080
+				*Face_ID 91
+			#Indexed(Triangle) 92
+				*Vertex_ID	88	70	54
+				*Face_Normal    -0.4528    -0.8916     0.0065
+				*Face_ID 92
+			#Indexed(Triangle) 93
+				*Vertex_ID	70	89	76
+				*Face_Normal    -0.1512    -0.9869    -0.0571
+				*Face_ID 93
+			#Indexed(Triangle) 94
+				*Vertex_ID	90	54	91
+				*Face_Normal    -0.3159    -0.9485     0.0231
+				*Face_ID 94
+			#Indexed(Triangle) 95
+				*Vertex_ID	95	54	57
+				*Face_Normal    -0.5979    -0.6515     0.4669
+				*Face_ID 95
+			#Indexed(Triangle) 96
+				*Vertex_ID	54	96	92
+				*Face_Normal    -0.5140    -0.8444     0.1508
+				*Face_ID 96
+			#Indexed(Triangle) 97
+				*Vertex_ID	93	97	57
+				*Face_Normal    -0.6129    -0.6173     0.4933
+				*Face_ID 97
+			#Indexed(Triangle) 98
+				*Vertex_ID	58	55	69
+				*Face_Normal    -0.2234    -0.6532     0.7235
+				*Face_ID 98
+			#Indexed(Triangle) 99
+				*Vertex_ID	55	58	53
+				*Face_Normal    -0.1160    -0.6831     0.7210
+				*Face_ID 99
+			#Indexed(Triangle) 100
+				*Vertex_ID	55	56	57
+				*Face_Normal    -0.3574    -0.6945     0.6244
+				*Face_ID 100
+			#Indexed(Triangle) 101
+				*Vertex_ID	56	55	53
+				*Face_Normal    -0.3705    -0.7009     0.6094
+				*Face_ID 101
+			#Indexed(Triangle) 102
+				*Vertex_ID	56	94	57
+				*Face_Normal    -0.6411    -0.7007     0.3131
+				*Face_ID 102
+			#Indexed(Triangle) 103
+				*Vertex_ID	54	62	59
+				*Face_Normal    -0.2486    -0.2599    -0.9331
+				*Face_ID 103
+			#Indexed(Triangle) 104
+				*Vertex_ID	62	54	70
+				*Face_Normal    -0.2486    -0.2599    -0.9331
+				*Face_ID 104
+			#Indexed(Triangle) 105
+				*Vertex_ID	57	59	61
+				*Face_Normal    -0.8095    -0.1576    -0.5656
+				*Face_ID 105
+			#Indexed(Triangle) 106
+				*Vertex_ID	59	57	54
+				*Face_Normal    -0.8095    -0.1576    -0.5656
+				*Face_ID 106
+			#Indexed(Triangle) 107
+				*Vertex_ID	69	60	74
+				*Face_Normal    -0.4679     0.2372     0.8514
+				*Face_ID 107
+			#Indexed(Triangle) 108
+				*Vertex_ID	60	69	55
+				*Face_Normal    -0.4679     0.2372     0.8514
+				*Face_ID 108
+			#Indexed(Triangle) 109
+				*Vertex_ID	55	61	60
+				*Face_Normal    -0.9104     0.1110     0.3986
+				*Face_ID 109
+			#Indexed(Triangle) 110
+				*Vertex_ID	61	55	57
+				*Face_Normal    -0.9104     0.1110     0.3986
+				*Face_ID 110
+			#Indexed(Triangle) 111
+				*Vertex_ID	78	70	77
+				*Face_Normal     0.1512    -0.9869    -0.0571
+				*Face_ID 111
+			#Indexed(Triangle) 112
+				*Vertex_ID	70	79	65
+				*Face_Normal     0.4528    -0.8916     0.0065
+				*Face_ID 112
+			#Indexed(Triangle) 113
+				*Vertex_ID	80	81	65
+				*Face_Normal     0.3159    -0.9485     0.0231
+				*Face_ID 113
+			#Indexed(Triangle) 114
+				*Vertex_ID	85	65	82
+				*Face_Normal     0.5140    -0.8444     0.1508
+				*Face_ID 114
+			#Indexed(Triangle) 115
+				*Vertex_ID	65	86	68
+				*Face_Normal     0.5979    -0.6515     0.4669
+				*Face_ID 115
+			#Indexed(Triangle) 116
+				*Vertex_ID	83	68	87
+				*Face_Normal     0.6129    -0.6173     0.4933
+				*Face_ID 116
+			#Indexed(Triangle) 117
+				*Vertex_ID	58	66	64
+				*Face_Normal     0.1160    -0.6831     0.7210
+				*Face_ID 117
+			#Indexed(Triangle) 118
+				*Vertex_ID	66	58	69
+				*Face_Normal     0.2234    -0.6532     0.7235
+				*Face_ID 118
+			#Indexed(Triangle) 119
+				*Vertex_ID	66	67	64
+				*Face_Normal     0.3705    -0.7009     0.6094
+				*Face_ID 119
+			#Indexed(Triangle) 120
+				*Vertex_ID	67	66	68
+				*Face_Normal     0.3574    -0.6945     0.6244
+				*Face_ID 120
+			#Indexed(Triangle) 121
+				*Vertex_ID	67	68	84
+				*Face_Normal     0.6411    -0.7007     0.3131
+				*Face_ID 121
+			#Indexed(Triangle) 122
+				*Vertex_ID	65	62	70
+				*Face_Normal     0.2486    -0.2599    -0.9331
+				*Face_ID 122
+			#Indexed(Triangle) 123
+				*Vertex_ID	62	65	71
+				*Face_Normal     0.2486    -0.2599    -0.9331
+				*Face_ID 123
+			#Indexed(Triangle) 124
+				*Vertex_ID	68	71	65
+				*Face_Normal     0.8095    -0.1576    -0.5656
+				*Face_ID 124
+			#Indexed(Triangle) 125
+				*Vertex_ID	71	68	73
+				*Face_Normal     0.8095    -0.1576    -0.5656
+				*Face_ID 125
+			#Indexed(Triangle) 126
+				*Vertex_ID	69	72	66
+				*Face_Normal     0.4679     0.2372     0.8514
+				*Face_ID 126
+			#Indexed(Triangle) 127
+				*Vertex_ID	72	69	74
+				*Face_Normal     0.4679     0.2372     0.8514
+				*Face_ID 127
+			#Indexed(Triangle) 128
+				*Vertex_ID	66	73	68
+				*Face_Normal     0.9104     0.1110     0.3986
+				*Face_ID 128
+			#Indexed(Triangle) 129
+				*Vertex_ID	73	66	72
+				*Face_Normal     0.9104     0.1110     0.3986
+				*Face_ID 129
+		}
+	}
+	#MATERIAL_REF	0
+}

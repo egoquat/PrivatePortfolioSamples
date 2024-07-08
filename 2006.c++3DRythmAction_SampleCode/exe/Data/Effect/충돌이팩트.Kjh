@@ -1,0 +1,14 @@
+[TextureName]
+√Êµπ¿Ã∆—∆Æ.dds
+[TexturePosition](X,Y,Z)
+0.000000 4.000000 0.000000
+[XStart ZStart XEnd ZEnd]
+0 0 0 0
+[Plane Distance]
+1
+[VertexSize](multiplication)
+4.000000 4.000000 4.000000
+[TextureAnimation Speed]
+5
+[PlaneStyle]
+0

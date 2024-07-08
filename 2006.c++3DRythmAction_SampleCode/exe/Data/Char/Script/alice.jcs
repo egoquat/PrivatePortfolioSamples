@@ -1,0 +1,23 @@
+COUNT 20
+OBJECT "../data/Char/Mesh/alice_body.jsd"
+OBJECT "../data/Char/Mesh/alice_face_basic.jsd"
+OBJECT "../data/Char/Mesh/alice_face_crash.jsd"
+OBJECT "../data/Char/Mesh/alice_face_cry.jsd"
+OBJECT "../data/Char/Mesh/alice_face_recommend.jsd"
+OBJECT "../data/Char/Mesh/alice_face_slow.jsd"
+OBJECT "../data/Char/Mesh/alice_face_smile.jsd"
+OBJECT "../data/Char/Mesh/alice_face_absent.jsd"
+OBJECT "../data/Char/Mesh/alice_ani_idle1.jmd"
+OBJECT "../data/Char/Mesh/alice_ani_move1.jmd"
+OBJECT "../data/Char/Mesh/alice_ani_fall.jmd"
+OBJECT "../data/Char/Mesh/alice_ani_run.jmd"
+OBJECT "../data/Char/Mesh/alice_ani_idle2.jmd"
+OBJECT "../data/Char/Mesh/alice_ani_move2.jmd"
+OBJECT "../data/Char/Mesh/alice_ani_move3.jmd"
+OBJECT "../data/Char/Mesh/alice_ani_event.jmd"
+OBJECT "../data/Char/Mesh/alice_ani_event.jmd"
+OBJECT "../data/Char/Mesh/alice_ani_idle3.jmd"
+OBJECT "../data/Char/Mesh/alice_ani_turn.jmd"
+OBJECT "../data/Char/Script/alice.jaf"
+
+//±âº» Ãæµ¹ ¿ï±â ¿øÃò ¸ÍÇÔ ¿ôÀ½ º¡ÂÇ

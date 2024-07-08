@@ -1,0 +1,4 @@
+COUNT 3
+OBJECT "../data/Char/Mesh/flypig.jsd"
+OBJECT "../data/Char/Mesh/flypig.jmd"
+OBJECT "../data/Char/Script/flypig.jaf"

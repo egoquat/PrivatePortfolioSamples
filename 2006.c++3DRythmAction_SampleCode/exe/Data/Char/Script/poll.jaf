@@ -1,0 +1,14 @@
+*JINY_TOOL_SAVE*
+*ANI_FRAME_LIST*
+idle1 40 330 370
+move1 45 0 45
+fall 40 205 245
+run 30 246 276
+idle2 25 300 325
+move2 61 48 109
+move3 66 112 178
+event_walk 21 180 201
+event_idle 40 330 370
+idle3 20 280 325
+turn 20 373 393
+*FRAME_LIST_END*

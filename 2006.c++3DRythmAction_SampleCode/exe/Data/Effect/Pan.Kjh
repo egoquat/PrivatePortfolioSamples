@@ -1,0 +1,14 @@
+[TextureName]
+01.tga
+[TexturePosition](X,Y,Z)
+0.000000 0.000000 0.000000
+[XStart ZStart XEnd ZEnd]
+0 0 0 0
+[Plane Distance]
+1
+[VertexSize](multiplication)
+1.000000 1.000000 1.000000
+[TextureAnimation Speed]
+0.200000
+[PlaneStyle]
+1

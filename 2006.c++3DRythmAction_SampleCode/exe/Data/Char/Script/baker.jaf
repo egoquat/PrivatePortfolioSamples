@@ -1,0 +1,13 @@
+*JINY_TOOL_SAVE*
+*ANI_FRAME_LIST*
+idle1 170 0 170
+move1 40 220 260
+fall 0 0 0
+run 0 0 0
+idle2 38 172 210
+move2 0 0 0
+move3 0 0 0
+ev_walk 0 0 0
+ev_idle 0 0 0
+idle3 42 263 305
+*FRAME_LIST_END*

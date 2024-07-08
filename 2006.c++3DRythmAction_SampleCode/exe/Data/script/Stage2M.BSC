@@ -1,0 +1,135 @@
+*Nowgo_Conversation_Sang_Ryol
+#FONT_INFO
+	*Font_Count 2
+	#Font 0				// 이름
+		*Font "고딕체"
+		*Size 24
+		*Bold 0
+		*Italic 0
+		*Color 1		// 1 : 검은색 2 : 빨강 3 : 녹색 4 : 파랑
+	#Font 1				// 대화
+		*Font "고딕체"
+		*Size 18
+		*Bold 0
+		*Italic 0
+		*Color 1		// 1 : 검은색 2 : 빨강 3 : 녹색 4 : 파랑
+#FONT_POSITION
+	*Name_Position		350,590,400,620			// 이름을 뿌를 RECT
+	*Conversation_Position  360,620,750,740			// 대화를 뿌릴 Rect	
+#SCREEN_COORDINATE_LIST
+	*Face_Coordinate 40,439,289,768				// 얼굴의 그림을 뿌릴 Rect
+	*Conversation_Coordinate 300,566,767,768		// 대화창의 그림을 뿌릴 Rect
+#TEXTURE_LIST
+	*Texture_Count 3
+	*Bit_Map "대화창.tga"		// <---- Texture ID : 0
+	*Bit_Map "제빵사_근위병_엘리쟈.tga"	// <---- Texture ID : 1
+	*Bit_Map "폴_여왕.tga"		// <---- Texture ID : 2
+#CONVERSATION_BOX_LIST
+	*Conversation_Box_Coordinate 22,18,489,220		// 박스의 좌표
+#CHARACTER_LIST
+	*Character_Count 2					// 이번대화에 나오는 캐릭터의 갯수는 2개
+	#Character 0 
+		*Name "피노"
+		*Texture 1
+		#Expression 1
+			*Character_Texture_Coordinate 11,377,266,765		// 기본 표정
+	*Character 1
+		*Name "폴"
+		*Texture 2	// <----Texture의 ID
+		#Expression 6   // <---- Face 표정
+			*Character_Texture_Coordinate 18,4,267,333		// 기본
+			*Character_Texture_Coordinate 268,4,523,333		// 진지		
+			*Character_Texture_Coordinate 524,4,771,333		// 두근
+			*Character_Texture_Coordinate 18,337,267,666		// 놀란
+			*Character_Texture_Coordinate 268,337,523,666		// 웃는
+			*Character_Texture_Coordinate 524,337,771,666		// 우는
+	*Total_Expression_Count 7						// 졸라 중요. 모든 Expression을 합친수
+#CONVERSATION_LIST
+{
+	#Conversation 0 
+		*Character 0					// 여기서의 1번은 폴이요....0번은 근위병이다.
+		*Expression 0					// 표정도 처음에 0부터 시작해서 가면은 되고
+		*Conversation_Count 1				// 이건 대화줄의 갯수를 말하는것이며
+		*Conversation "무슨 일이에영?"       	// 이건 대화다
+		*Continue 1					// 1번은 Enter을 치면은 다음으로 넘어가는것이며 -1은 모든 대화의 끝이다.
+	#Conversation 1 
+		*Character 1
+		*Expression 1
+		*Conversation_Count 1
+		*Conversation "에..(이녀석도 이상한 행동을 하면 어떻하지)"
+		*Continue 1
+	#Conversation 2 
+		*Character 1
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "저 모자 속을 좀 보여 줄 수 있나요?"
+		*Continue 1
+	#Conversation 3 
+		*Character 0
+		*Expression 0
+		*Conversation_Count 2
+		*Conversation "모자를영?"
+		*Conversation "하지만 저는 팔이 짧아서 모자를 벗을 수가 없어영"
+		*Continue 0				
+	#Conversation 4
+		*Character 1
+		*Expression 3
+		*Conversation_Count 1
+		*Conversation "(그럼 쓸 때는 어떻게 쓴거야!!)"
+		*Continue 0
+	#Conversation 5
+		*Character 0
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "머리가 어지러워영~~"
+		*Continue 0
+	#Conversation 6
+		*Character 1
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "저기 머리는 괜찮아요?"
+		*Continue 1
+	#Conversation 7
+		*Character 0
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "뭐가요? 무슨 일이 있었나요?"
+		*Continue 1
+	#Conversation 8
+		*Character 1
+		*Expression 3
+		*Conversation_Count 1
+		*Conversation "(대체 뭐야;;)"
+		*Continue 1
+	#Conversation 9
+		*Character 0
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "앗 그쪽도 가방을 좋아하시나 봐요!"
+		*Continue 0
+	#Conversation 10
+		*Character 0
+		*Expression 0
+		*Conversation_Count 2
+		*Conversation "제 가방은 예전에 어머니께서 어쩌구 저쩌구 !@#$%^^^"
+		*Conversation "!@#@%&^*%^$%$$$%%^$%^@^#$%&$%&%$&%$"
+		*Continue 1
+	#Conversation 11
+		*Character 0
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "!@#$#$$%&^%^&%^&%^&%^&%^&"
+		*Continue 1
+	#Conversation 12
+		*Character 0
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "!@#@%$#$^$%&%^&%^&%^7"
+		*Continue 1
+	#Conversation 13
+		*Character 1
+		*Expression 3
+		*Conversation_Count 1
+		*Conversation "머.. 머리가 어지러워"
+		*Continue -1
+}

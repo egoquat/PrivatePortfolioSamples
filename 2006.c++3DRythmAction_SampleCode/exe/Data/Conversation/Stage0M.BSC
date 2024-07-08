@@ -1,0 +1,210 @@
+*Nowgo_Conversation_Sang_Ryol
+#FONT_INFO
+	*Font_Count 2
+	#Font 0				// 이름
+		*Font "고딕체"
+		*Size 24
+		*Bold 0
+		*Italic 0
+		*Color 1		// 1 : 검은색 2 : 빨강 3 : 녹색 4 : 파랑
+	#Font 1				// 대화
+		*Font "고딕체"
+		*Size 18
+		*Bold 0
+		*Italic 0
+		*Color 1		// 1 : 검은색 2 : 빨강 3 : 녹색 4 : 파랑
+#FONT_POSITION
+	*Name_Position		350,590,400,620			// 이름을 뿌를 RECT
+	*Conversation_Position  360,620,750,740			// 대화를 뿌릴 Rect	
+#SCREEN_COORDINATE_LIST
+	*Face_Coordinate 40,439,289,768				// 얼굴의 그림을 뿌릴 Rect
+	*Conversation_Coordinate 300,566,767,768		// 대화창의 그림을 뿌릴 Rect
+#TEXTURE_LIST
+	*Texture_Count 3
+	*Bit_Map "대화창.tga"		// <---- Texture ID : 0
+	*Bit_Map "엘리스_세바스챤.tga"	// <---- Texture ID : 1
+	*Bit_Map "폴_여왕.tga"		// <---- Texture ID : 2
+#CONVERSATION_BOX_LIST
+	*Conversation_Box_Coordinate 22,18,489,220		// 박스의 좌표
+#CHARACTER_LIST
+	*Character_Count 2					// 이번대화에 나오는 캐릭터의 갯수는 2개
+	#Character 0 
+		*Name "세바스찬"
+		*Texture 1
+		#Expression 4
+			*Character_Texture_Coordinate 41,757,274,1023		// 기본 표정
+			*Character_Texture_Coordinate 295,757,528,1023		// 눈십자 표정
+			*Character_Texture_Coordinate 550,757,783,1023		// 진지한 표정
+			*Character_Texture_Coordinate 786,757,1019,1023	        // 당황한 표정
+	*Character 1
+		*Name "폴"
+		*Texture 2	// <----Texture의 ID
+		#Expression 6   // <---- Face 표정
+			*Character_Texture_Coordinate 18,4,267,333		// 기본
+			*Character_Texture_Coordinate 268,4,523,333		// 진지		
+			*Character_Texture_Coordinate 524,4,771,333		// 두근
+			*Character_Texture_Coordinate 18,337,267,664		// 놀란
+			*Character_Texture_Coordinate 268,337,523,664		// 웃는
+			*Character_Texture_Coordinate 524,337,771,664		// 우는
+	*Total_Expression_Count 10						// 졸라 중요. 모든 Expression을 합친수
+#CONVERSATION_LIST
+{
+	#Conversation 0 
+		*Character 1					// 여기서의 1번은 폴이요....0번은 세바스찬이다.
+		*Expression 3					// 표정도 처음에 0부터 시작해서 가면은 되고
+		*Conversation_Count 2				// 이건 대화줄의 갯수를 말하는것이며
+		*Conversation "우와악!!!"
+		*Conversation "여기가 어디지...?!"       	// 이건 대화다
+		*Continue 0					// 1번은 Enter을 치면은 다음으로 넘어가는것이며 -1은 모든 대화의 끝이다.
+	#Conversation 1 
+		*Character 0
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "잠깐 멈추라웅"
+		*Continue 0
+	#Conversation 2 
+		*Character 0
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "얼렁뚱땅 움직이면 위험 하다웅"
+		*Continue 1
+	#Conversation 3 
+		*Character 1
+		*Expression 1
+		*Conversation_Count 1
+		*Conversation "(고..곰이 말을 한다)"
+		*Continue 1					
+	#Conversation 4
+		*Character 0
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "여기는 잊혀진 공간들의 장소라웅"
+		*Continue 1
+	#Conversation 5
+		*Character 1
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "잊혀진 공간들의 장소?"
+		*Continue 1
+	#Conversation 6
+		*Character 0
+		*Expression 0
+		*Conversation_Count 3
+		*Conversation "그렇다웅 사람들이 보지 못하고 지나치거나"
+		*Conversation "잊어버리고 있는 공간들이" 
+		*Conversation "뒤죽박죽 모여 있는 곳이라웅"
+		*Continue 1
+	#Conversation 7
+		*Character 1
+		*Expression 3
+		*Conversation_Count 2
+		*Conversation "잘은 모르겠지만" 
+		*Conversation  "우리 집 하고는 거리가 있는 것 같네"
+		*Continue 0
+	#Conversation 8
+		*Character 1
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "어떻게 하면 집으로 갈 수 있는 거지?"
+		*Continue 1
+	#Conversation 9
+		*Character 0
+		*Expression 0
+		*Conversation_Count 2
+		*Conversation "당신이 이곳에 오게 된 원인을"
+		*Conversation "해결하면 된다웅"
+		*Continue 1
+	#Conversation 10
+		*Character 1
+		*Expression 0
+		*Conversation_Count 2
+		*Conversation "원인 이라고?"
+		*Conversation "내가 어째서 이곳에 오게 된 거지?"
+		*Continue 1
+	#Conversation 11
+		*Character 0
+		*Expression 0
+		*Conversation_Count 2
+		*Conversation "이 공간의 균형을 잡아주는"
+		*Conversation "공간석이라는 돌이 조각났기 때문이라웅"
+		*Continue 1
+	#Conversation 12
+		*Character 1
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "공간석은 왜 조각 났는데?"
+		*Continue 1
+	#Conversation 13
+		*Character 0
+		*Expression 3
+		*Conversation_Count 1
+		*Conversation "그.. 그건 나도 잘 모른다웅"
+		*Continue 0
+	#Conversation 14
+		*Character 0
+		*Expression 0
+		*Conversation_Count 2
+		*Conversation "하여튼 흩어진 공간석을"
+		*Conversation "네가 모아 줬으면 좋겠다웅"
+		*Continue 1
+	#Conversation 15
+		*Character 1
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "어째서 내가 그것을 모아야 하지"
+		*Continue 1
+	#Conversation 16
+		*Character 0
+		*Expression 0
+		*Conversation_Count 3
+		*Conversation "지금의 나는 공간석을 만질 수 없다웅"
+		*Conversation "그리고 공간석이 없으면" 
+		*Conversation "너를 집으로 보내줄 수 없다웅"
+		*Continue 1
+	#Conversation 17
+		*Character 0
+		*Expression 0
+		*Conversation_Count 3
+		*Conversation "공간석 조각을 모아 준다면" 
+		*Conversation "내 힘이 돌아와서" 
+		*Conversation "너를 집으로 보내줄 수 있을 꺼라웅"
+		*Continue 1
+	#Conversation 18
+		*Character 1
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "공간석 조각은 어떻게 찾지?"
+		*Continue 0
+	#Conversation 19
+		*Character 0
+		*Expression 0
+		*Conversation_Count 4
+		*Conversation "네 몸 속에도 공간을 넘어오면서"
+		*Conversation "공간석 조각이 들어가게 돼었다웅"
+		*Conversation "공간석의 공명이 다른 공간석의 위치를" 
+		*Conversation "알려줄 꺼라웅"
+		*Continue 1
+	#Conversation 20
+		*Character 1
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "공명이라고?"
+		*Continue 1
+	#Conversation 21
+		*Character 0
+		*Expression 0
+		*Conversation_Count 5
+		*Conversation "가슴속 공간석의 공명을 느껴보면 공명리듬이" 
+		*Conversation "들릴 꺼라웅 공명에 맞춰 이동하다 보면"
+		*Conversation "다른 공명석의 위치를 알게 될꺼라웅"
+		*Conversation "리듬에 맞춰 이동해야 안전하게" 
+		*Conversation "이동할 수 있다웅"
+		*Continue 0
+	#Conversation 22
+		*Character 0
+		*Expression 0
+		*Conversation_Count 2
+		*Conversation "그럼 난이만 간다웅 힘이 약해져서"
+		*Conversation "오랫 동안 있을 수 없다웅"
+		*Continue -1
+}

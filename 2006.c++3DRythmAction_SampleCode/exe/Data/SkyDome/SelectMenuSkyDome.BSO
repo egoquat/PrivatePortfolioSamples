@@ -1,0 +1,147 @@
+#BSR_FILE_EXPORT 3 Version.2006.04.14
+#SCENE {
+	*Scene_Name	SelectMenuSkyDome.max
+	*FirstFrame	0
+	*FirstFrame*TickPerFrame	0
+	*LastFrame	100
+	*LastFrame*TickPerFrame	16000
+	*FrameSpeed	30
+	*FrameSpeed*TickPerFrame	4800
+	*TickPerFrame	160
+	*SampleSpeed	800
+	*Is_AnimationModel	0
+}
+#MATERIAL_LIST {
+	*Root_Material	1
+	#MATERIAL 0 {
+		*Ambient	    0.5882     0.5882     0.5882
+		*Diffuse	    0.5882     0.5882     0.5882
+		*Specular	    0.9000     0.9000     0.9000
+		*Sub_Material_Count 0
+		*BIT_MAP ¸Þ´ºÇÏ´Ã.tga
+	}
+}
+#GEOMOBJECT_INFO {
+	*Total_Mesh	1
+	*GeomObject_Total_Mesh	1
+	*HelperObject_Total_Mesh	0
+	*BoneObject_Total_Mesh	0
+	*RootNode_To_ChildNode	1
+}
+#GEOMOBJECTS {
+	*Mesh_ID	0
+	*Mesh_Name	sky
+	*Is_Parent	0
+	*Mesh_ParentName	NULL
+	*Is_Bone	0
+	*Class_Name	Editable_Poly
+	*Triangle_Count	14
+	*Vertex_Count	17
+	*Face_Count	14
+	*AnimationTrack_Count	0
+	*Is_Sub_Material	0
+	*Sub_Material_Count	0
+	*LOCAL_MATRIX
+		    1.7858     0.0000     0.0000     0.0000
+		    0.0000     1.4354     0.0000     0.0000
+		    0.0000     0.0000     1.7858     0.0000
+		    0.0000   -11.4788     0.0000     1.0000
+	*WORLD_MATRIX
+		    1.7858     0.0000     0.0000     0.0000
+		    0.0000     1.4354     0.0000     0.0000
+		    0.0000     0.0000     1.7858     0.0000
+		    0.0000   -11.4788     0.0000     1.0000
+	*INVERSE_MATRIX
+		    0.5600     0.0000     0.0000     0.0000
+		    0.0000     0.6967     0.0000     0.0000
+		    0.0000     0.0000     0.5600     0.0000
+		    0.0000     7.9970     0.0000     1.0000
+	#Collision_Info {
+		*Min	-61.2018	-11.4788	-60.5072
+		*Max	56.7785	63.9944	58.8275
+		*Center	-2.2116	-0.8399	26.2578
+		*Radius	105.4570
+	}
+	#Vertices_List {
+		0     9.9390   -11.4788   -60.5072	   -0.1621     0.0000     0.9868	     4294967295	    0.7093     0.9874
+		1    53.5033   -11.4788   -29.9550	   -0.8726     0.0000     0.4885	     4294967295	    0.8504     0.9874
+		2    56.7785   -11.4788    23.1540	   -0.9260     0.0000    -0.3776	     4294967295	    0.9914     0.9874
+		3    17.2983   -11.4788    58.8275	   -0.2821     0.0000    -0.9594	     4294967295	    0.1451     0.9874
+		4   -35.2078   -11.4788    50.2027	    0.5742     0.0000    -0.8187	     4294967295	    0.2862     0.9874
+		5   -61.2018   -11.4788     3.7743	    0.9981     0.0000    -0.0616	     4294967295	    0.4272     0.9874
+		6   -41.1095   -11.4788   -45.4963	    0.6704     0.0000     0.7420	     4294967295	    0.5683     0.9874
+		7     9.9390    63.9944   -60.5072	   -0.1621     0.0000     0.9868	     4294967295	    0.7093     0.0126
+		8    53.5033    63.9944   -29.9550	   -0.8726     0.0000     0.4885	     4294967295	    0.8504     0.0126
+		9    56.7785    63.9944    23.1540	   -0.9260     0.0000    -0.3776	     4294967295	    0.9914     0.0126
+		10    17.2983    63.9944    58.8275	   -0.2821     0.0000    -0.9594	     4294967295	    0.1451     0.0126
+		11   -35.2078    63.9944    50.2027	    0.5742     0.0000    -0.8187	     4294967295	    0.2862     0.0126
+		12   -61.2018    63.9944     3.7743	    0.9981     0.0000    -0.0616	     4294967295	    0.4272     0.0126
+		13   -41.1095    63.9944   -45.4963	    0.6704     0.0000     0.7420	     4294967295	    0.5683     0.0126
+		14    56.7785    63.9944    23.1540	   -0.9260     0.0000    -0.3776	     4294967295	    0.0041     0.0126
+		15    56.7785   -11.4788    23.1540	   -0.9260     0.0000    -0.3776	     4294967295	    0.0041     0.9874
+		16    56.7785   -11.4788    23.1540	   -0.9260     0.0000    -0.3776	     4294967295	    0.0041     0.9874
+	}
+	#IndexGroup_List {
+		*Index_Group_Count 1
+		#Index_List 0 {
+			*Triangle_Count 14
+			#Triangle 0
+				*Vertex_ID	0	8	7
+				*Face_Normal    -0.5742     0.0000     0.8187
+				*Face_ID 0
+			#Triangle 1
+				*Vertex_ID	8	0	1
+				*Face_Normal    -0.5742     0.0000     0.8187
+				*Face_ID 1
+			#Triangle 2
+				*Vertex_ID	1	9	8
+				*Face_Normal    -0.9981     0.0000     0.0616
+				*Face_ID 2
+			#Triangle 3
+				*Vertex_ID	9	1	2
+				*Face_Normal    -0.9981     0.0000     0.0616
+				*Face_ID 3
+			#Triangle 4
+				*Vertex_ID	15	10	14
+				*Face_Normal    -0.6704     0.0000    -0.7420
+				*Face_ID 4
+			#Triangle 5
+				*Vertex_ID	10	16	3
+				*Face_Normal    -0.6704     0.0000    -0.7420
+				*Face_ID 5
+			#Triangle 6
+				*Vertex_ID	3	11	10
+				*Face_Normal     0.1621     0.0000    -0.9868
+				*Face_ID 6
+			#Triangle 7
+				*Vertex_ID	11	3	4
+				*Face_Normal     0.1621     0.0000    -0.9868
+				*Face_ID 7
+			#Triangle 8
+				*Vertex_ID	4	12	11
+				*Face_Normal     0.8726     0.0000    -0.4885
+				*Face_ID 8
+			#Triangle 9
+				*Vertex_ID	12	4	5
+				*Face_Normal     0.8726     0.0000    -0.4885
+				*Face_ID 9
+			#Triangle 10
+				*Vertex_ID	5	13	12
+				*Face_Normal     0.9260     0.0000     0.3776
+				*Face_ID 10
+			#Triangle 11
+				*Vertex_ID	13	5	6
+				*Face_Normal     0.9260     0.0000     0.3776
+				*Face_ID 11
+			#Triangle 12
+				*Vertex_ID	6	7	13
+				*Face_Normal     0.2821     0.0000     0.9594
+				*Face_ID 12
+			#Triangle 13
+				*Vertex_ID	7	6	0
+				*Face_Normal     0.2821     0.0000     0.9594
+				*Face_ID 13
+		}
+	}
+	#MATERIAL_REF	0
+}

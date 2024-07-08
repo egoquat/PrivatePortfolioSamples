@@ -1,0 +1,4 @@
+COUNT 3
+OBJECT "../data/Char/Mesh/baker.jsd"
+OBJECT "../data/Char/Mesh/baker.jmd"
+OBJECT "../data/Char/Script/baker.jaf"

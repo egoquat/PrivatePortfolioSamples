@@ -1,0 +1,26 @@
+[ParticleTextureName]
+pung00.DDS
+[Particle Kind]
+1
+[ParticleNumber]
+500
+[ParticleSize]
+10.000000
+[PariclePosition](X,Y,Z)
+0.000000 27.000000 0.000000
+[Gravity(X,Y,Z)]
+0.000000 -40.000000 0.000000
+[Wind(X,Y,Z)]
+0.000000 0.000000 0.000000
+[ParicleColor]
+10.000000 10.000000 10.000000
+[ParticleSpeed]
+20.000000
+[Particle LifeTime]
+5.000000
+[Particle ReStartTime]
+0.10000
+[Alpha]
+10.000000
+[ParticleRotation](X,Y,Z)
+0 0 0 5.000000

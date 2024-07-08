@@ -1,0 +1,4 @@
+COUNT 3
+OBJECT "../data/Char/Mesh/guardblue.jsd"
+OBJECT "../data/Char/Mesh/guardblue.jmd"
+OBJECT "../data/Char/Script/guardblue.jaf"

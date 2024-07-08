@@ -1,0 +1,172 @@
+*Nowgo_Conversation_Sang_Ryol
+#FONT_INFO
+	*Font_Count 2
+	#Font 0				// 이름
+		*Font "고딕체"
+		*Size 24
+		*Bold 0
+		*Italic 0
+		*Color 1		// 1 : 검은색 2 : 빨강 3 : 녹색 4 : 파랑
+	#Font 1				// 대화
+		*Font "고딕체"
+		*Size 18
+		*Bold 0
+		*Italic 0
+		*Color 1		// 1 : 검은색 2 : 빨강 3 : 녹색 4 : 파랑
+#FONT_POSITION
+	*Name_Position		350,590,400,620			// 이름을 뿌를 RECT
+	*Conversation_Position  360,620,750,740			// 대화를 뿌릴 Rect	
+#SCREEN_COORDINATE_LIST
+	*Face_Coordinate 40,439,289,768				// 얼굴의 그림을 뿌릴 Rect
+	*Conversation_Coordinate 300,566,767,768		// 대화창의 그림을 뿌릴 Rect
+#TEXTURE_LIST
+	*Texture_Count 3
+	*Bit_Map "대화창.tga"		// <---- Texture ID : 0
+	*Bit_Map "엘리스_세바스챤.tga"	// <---- Texture ID : 1
+	*Bit_Map "제빵사_근위병_엘리쟈.tga" // <---- Texture ID : 2
+#CONVERSATION_BOX_LIST
+	*Conversation_Box_Coordinate 22,18,489,220		// 박스의 좌표
+#CHARACTER_LIST
+	*Character_Count 2					// 이번대화에 나오는 캐릭터의 갯수는 2개
+	#Character 0 
+		*Name "앨리자베스"
+		*Texture 2
+		#Expression 3
+			*Character_Texture_Coordinate 276,461,505,749		// 기본 표정 0
+			*Character_Texture_Coordinate 535,461,764,749		// 눈십자 표정 1
+			*Character_Texture_Coordinate 786,461,1015,749		// 진지한 표정 2
+	*Character 1
+		*Name "앨리스"
+		*Texture 1	// <----Texture의 ID
+		#Expression 6   // <---- Face 표정
+			*Character_Texture_Coordinate 48,1,355,367		// 기본 0
+			*Character_Texture_Coordinate 355,1,664,367		// 맹한	1	
+			*Character_Texture_Coordinate 664,1,969,367		// 웃는 2
+			*Character_Texture_Coordinate 68,367,355,757		// 벙찐 3
+			*Character_Texture_Coordinate 355,367,664,757		// 우는 4
+			*Character_Texture_Coordinate 664,367,969,757		// 유리가면 5
+	*Total_Expression_Count 9						// 졸라 중요. 모든 Expression을 합친수
+#CONVERSATION_LIST
+{
+	#Conversation 0 
+		*Character 1					// 여기서의 1번은 폴이요....0번은 세바스찬이다.
+		*Expression 4					// 표정도 처음에 0부터 시작해서 가면은 되고
+		*Conversation_Count 1				// 이건 대화줄의 갯수를 말하는것이며
+		*Conversation "아고고.. 엉덩이야"       	// 이건 대화다
+		*Continue 0					// 1번은 Enter을 치면은 다음으로 넘어가는것이며 -1은 모든 대화의 끝이다.
+	#Conversation 1 
+		*Character 1
+		*Expression 3
+		*Conversation_Count 1
+		*Conversation "이거 전부다 먹을꺼?"
+		*Continue 1
+	#Conversation 2 
+		*Character 0
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "당황하지 마세요"
+		*Continue 0
+	#Conversation 3 
+		*Character 0
+		*Expression 0
+		*Conversation_Count 3
+		*Conversation "앨리스.. 앨리스 씨죠?"
+		*Conversation "저는 앨리자 베스 라고 해요"
+		*Conversation "제가 도와 드릴께요"
+		*Continue 1					
+	#Conversation 4
+		*Character 1
+		*Expression 2
+		*Conversation_Count 2
+		*Conversation "와! 토끼씨다!"
+		*Conversation "안녕하세요"
+		*Continue 0
+	#Conversation 5
+		*Character 1
+		*Expression 1
+		*Conversation_Count 1
+		*Conversation "에 그런대 요즘은 토끼도 말을 하나요?"
+		*Continue 1
+	#Conversation 6
+		*Character 0
+		*Expression 2
+		*Conversation_Count 3
+		*Conversation "그건 별로 중요 하지 않아요"
+		*Conversation "앨리스씨가 어떻게 하면 원래 세상으로"
+		*Conversation "돌아 갈 수 있는가가 중요하죠"
+		*Continue 0
+	#Conversation 7
+		*Character 1
+		*Expression 1
+		*Conversation_Count 1
+		*Conversation "그러고보니 여기는 어디?"
+		*Conversation "분명 높은곳에서 떨어진 듯한 느낌인데.."
+		*Continue 0
+	#Conversation 8
+		*Character 1
+		*Expression 4
+		*Conversation_Count 1
+		*Conversation "설마 나 죽은 건가요"
+		*Continue 1
+	#Conversation 9
+		*Character 0
+		*Expression 2
+		*Conversation_Count 2
+		*Conversation "아니에요"
+		*Conversation "여기는 잊혀진 공간들의 장소에요"
+		*Continue 1
+	#Conversation 10
+		*Character 0
+		*Expression 2
+		*Conversation_Count 3
+		*Conversation "앨리스씨 몸속에 들어있는 공간석 조각들을"
+		*Conversation "다른 사람들에게 나누어 주신다면 집으로"
+		*Conversation "돌아갈 수 있을꺼에요"
+		*Continue 0
+	#Conversation 11
+		*Character 1
+		*Expression 2
+		*Conversation_Count 1
+		*Conversation "와~ 정말요~~?"
+		*Continue 0
+	#Conversation 12
+		*Character 0
+		*Expression 2
+		*Conversation_Count 1
+		*Conversation "물론이죠 저만 믿으세요"
+		*Continue 0
+	#Conversation 13
+		*Character 0
+		*Expression 1
+		*Conversation_Count 3
+		*Conversation "빌어먹을 곰탱이놈이 공간석만"
+		*Conversation "깨트리지 않았어도 내가 이고생은"
+		*Conversation "안할탠대"
+		*Continue 0
+	#Conversation 14
+		*Character 0
+		*Expression 0
+		*Conversation_Count 3
+		*Conversation "공간석 조각을 전해주러 갈 때는 리듬에"
+		*Conversation "유의 하면서 이동해야 되요 그리고"
+		*Conversation "더이상의 자세한 설명은 생략한다?"
+		*Continue 0
+	#Conversation 15
+		*Character 1
+		*Expression 1
+		*Conversation_Count 1
+		*Conversation "에......."
+		*Continue 1
+	#Conversation 16
+		*Character 0
+		*Expression 2
+		*Conversation_Count 1
+		*Conversation "어째뜬 고고!"
+		*Continue 1
+	#Conversation 17
+		*Character 1
+		*Expression 2
+		*Conversation_Count 1
+		*Conversation "고고~~~~!!"
+		*Continue -1
+}

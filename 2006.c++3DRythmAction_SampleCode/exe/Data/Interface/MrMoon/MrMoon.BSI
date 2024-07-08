@@ -1,0 +1,66 @@
+#BSI_FILE_EXPORT
+#SCENE {
+	*Scene_Name	MrMoon.max
+}
+#MATERIAL_LIST {
+	*Root_Material	1
+	#MATERIAL 0 {
+		*Ambient	    0.5882     0.5882     0.5882
+		*Diffuse	    0.5882     0.5882     0.5882
+		*Specular	    0.9000     0.9000     0.9000
+		*Sub_Material_Count 0
+		*BIT_MAP ดÞดิ.tga
+	}
+}
+#GEOMOBJECT_INFO {
+	*Total_Mesh	1
+	*GeomObject_Total_Mesh	1
+	*RootNode_To_ChildNode	1
+}
+#GEOMOBJECTS {
+	*Mesh_ID	0
+	*Mesh_Name	Plane01
+	*Is_Parent	0
+	*Mesh_ParentName	NULL
+	*Triangle_Count	2
+	*Vertex_Count	4
+	*Face_Count	2
+	*Is_Sub_Material	0
+	*Sub_Material_Count	0
+	*LOCAL_MATRIX
+		    1.0000     0.0000     0.0000     0.0000
+		    0.0000    -0.0000    -1.0000     0.0000
+		    0.0000     1.0000    -0.0000     0.0000
+		    0.0607     6.4732    -0.0000     1.0000
+	*WORLD_MATRIX
+		    1.0000     0.0000     0.0000     0.0000
+		    0.0000    -0.0000    -1.0000     0.0000
+		    0.0000     1.0000    -0.0000     0.0000
+		    0.0607     6.4732    -0.0000     1.0000
+	*INVERSE_MATRIX
+		    1.0000     0.0000     0.0000     0.0000
+		    0.0000    -0.0000     1.0000     0.0000
+		    0.0000    -1.0000    -0.0000     0.0000
+		   -0.0607     0.0000    -6.4732     1.0000
+	#Vertices_List {
+		0    -6.4147    -0.0022     0.0000	    0.0000    -0.0000    -1.0000	     4294967295	    0.0000     1.0000
+		1     6.5361    -0.0022     0.0000	    0.0000    -0.0000    -1.0000	     4294967295	    1.0000     1.0000
+		2    -6.4147    12.9487    -0.0000	    0.0000    -0.0000    -1.0000	     4294967295	    0.0000     0.0000
+		3     6.5361    12.9487    -0.0000	    0.0000    -0.0000    -1.0000	     4294967295	    1.0000     0.0000
+	}
+	#IndexGroup_List {
+		*Index_Group_Count 1
+		#Index_List 0 {
+			*Triangle_Count 2
+			#Triangle 0
+				*Vertex_ID	2	3	0
+				*Face_Normal     0.0000    -0.0000    -1.0000
+				*Face_ID 0
+			#Triangle 1
+				*Vertex_ID	1	0	3
+				*Face_Normal     0.0000    -0.0000    -1.0000
+				*Face_ID 1
+		}
+	}
+	#MATERIAL_REF	0
+}

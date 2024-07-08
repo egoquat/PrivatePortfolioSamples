@@ -1,0 +1,33 @@
+//
+// Globals
+//
+matrix ViewProjMatrix;
+
+//
+// Structures
+//
+
+struct VS_INPUT
+{
+    vector position  : POSITION;
+    float2 base   : TEXCOORD0;
+};
+
+struct VS_OUTPUT
+{
+    vector position : POSITION;
+    float2 base  : TEXCOORD0;
+};
+
+VS_OUTPUT Main(VS_INPUT input)
+{
+    // zero out members of output
+    VS_OUTPUT output = (VS_OUTPUT)0;
+ 
+    // transform to view space and project
+    output.position  = mul(input.position, ViewProjMatrix);
+
+	output.base = input.base;
+	
+    return output;
+}

@@ -1,0 +1,118 @@
+*Nowgo_Conversation_Sang_Ryol
+#FONT_INFO
+	*Font_Count 2
+	#Font 0				// 이름
+		*Font "고딕체"
+		*Size 24
+		*Bold 0
+		*Italic 0
+		*Color 1		// 1 : 검은색 2 : 빨강 3 : 녹색 4 : 파랑
+	#Font 1				// 대화
+		*Font "고딕체"
+		*Size 18
+		*Bold 0
+		*Italic 0
+		*Color 1		// 1 : 검은색 2 : 빨강 3 : 녹색 4 : 파랑
+#FONT_POSITION
+	*Name_Position		350,590,400,620			// 이름을 뿌를 RECT
+	*Conversation_Position  360,620,750,740			// 대화를 뿌릴 Rect	
+#SCREEN_COORDINATE_LIST
+	*Face_Coordinate 40,439,289,768				// 얼굴의 그림을 뿌릴 Rect
+	*Conversation_Coordinate 300,566,767,768		// 대화창의 그림을 뿌릴 Rect
+#TEXTURE_LIST
+	*Texture_Count 3
+	*Bit_Map "대화창.tga"		// <---- Texture ID : 0
+	*Bit_Map "제빵사_근위병_엘리쟈.tga"	// <---- Texture ID : 1
+	*Bit_Map "폴_여왕.tga"		// <---- Texture ID : 2
+#CONVERSATION_BOX_LIST
+	*Conversation_Box_Coordinate 22,18,489,220		// 박스의 좌표
+#CHARACTER_LIST
+	*Character_Count 2					// 이번대화에 나오는 캐릭터의 갯수는 2개
+	#Character 0 
+		*Name "브래드"
+		*Texture 1
+		#Expression 3
+			*Character_Texture_Coordinate 8,0,273,369		// 기본 표정
+			*Character_Texture_Coordinate 286,0,551,369		// 입다문
+			*Character_Texture_Coordinate 558,0,823,369	        // 앨리제
+	*Character 1
+		*Name "폴"
+		*Texture 2	// <----Texture의 ID
+		#Expression 6   // <---- Face 표정
+			*Character_Texture_Coordinate 18,4,267,333		// 기본
+			*Character_Texture_Coordinate 268,4,523,333		// 진지		
+			*Character_Texture_Coordinate 524,4,771,333		// 두근
+			*Character_Texture_Coordinate 18,337,267,666		// 놀란
+			*Character_Texture_Coordinate 268,337,523,666		// 웃는
+			*Character_Texture_Coordinate 524,337,771,666		// 우는
+	*Total_Expression_Count 9						// 졸라 중요. 모든 Expression을 합친수
+#CONVERSATION_LIST
+{
+	#Conversation 0 
+		*Character 1					// 여기서의 1번은 폴이요....0번은 세바스찬이다.
+		*Expression 1					// 표정도 처음에 0부터 시작해서 가면은 되고
+		*Conversation_Count 1				// 이건 대화줄의 갯수를 말하는것이며
+		*Conversation "저거닷!!"		   	// 이건 대화다
+		*Continue 0					// 1번은 Enter을 치면은 다음으로 넘어가는것이며 -1은 모든 대화의 끝이다.
+	#Conversation 1 
+		*Character 0
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "응? 무슨일이 신가, 나한테 볼일이 있는건가 ?"
+		*Continue 1
+	#Conversation 2 
+		*Character 1
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "저기 그 어깨에 있는 링을 좀 봐도 되겠습니까?"
+		*Continue 1
+	#Conversation 3 
+		*Character 0
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "안돼"
+		*Continue 0				
+	#Conversation 4
+		*Character 0
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "이건 내 매력 포인트야!"
+		*Continue 1
+	#Conversation 5
+		*Character 0
+		*Expression 1
+		*Conversation_Count 1
+		*Conversation "너도 이걸 뺏어 가려고 왔구나"
+		*Continue 0
+	#Conversation 6
+		*Character 0
+		*Expression 2
+		*Conversation_Count 1
+		*Conversation "하아아아아아~"
+		*Continue 0
+	#Conversation 7
+		*Character 1
+		*Expression 3
+		*Conversation_Count 1
+		*Conversation "엇! 공명하기 시작했어.."
+		*Continue 0
+	#Conversation 8
+		*Character 0
+		*Expression 0
+		*Conversation_Count 1
+		*Conversation "우와악~~~~~~"
+		*Continue 0
+	#Conversation 9
+		*Character 0
+		*Expression 0
+		*Conversation_Count 2
+		*Conversation "어라라.. 내가 여기서 뭘하고 있던거지"
+		*Conversation "그쪽은 누구세요?"
+		*Continue 1
+	#Conversation 10
+		*Character 1
+		*Expression 3
+		*Conversation_Count 1
+		*Conversation "시.. 신경쓰지 마세요;;;"
+		*Continue -1
+}
