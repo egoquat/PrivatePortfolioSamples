@@ -1,0 +1,149 @@
+Direct3D:
+    Version:  Direct3D 9.0c [nvldumd.dll 31.0.15.3713]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER
+    Vendor:   NVIDIA
+    VRAM:     3072 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=0 DF24=0 INTZ=1 RAWZ=0 NULL=1 RESZ=0 SlowINTZ=0
+<I> Initializing (RawInput).
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+Non platform assembly: data-033D0F58 (this message is harmless)
+Non platform assembly: data-0C440048 (this message is harmless)
+Non platform assembly: data-0C4816D8 (this message is harmless)
+Non platform assembly: data-0343B658 (this message is harmless)
+Platform assembly: F:\Doc\Career01\2022\PortfolioSample\03.c#_unity_Navigationtool_exe+SampleCode\exe\navigationtool_Data\Managed\System.dll (this message is harmless)
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+ 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+
+The class defined in the script is not derived from MonoBehaviour or ScriptableObject!
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(Object)
+navimeshResource:getNavigationMesh(Int32)
+processCycle:resetGlobal(Int32, Boolean)
+processCycle:Initialize(processResource)
+processResource:Start()
+
+[C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp line 1328] 
+(Filename: C:/BuildAgent/work/842f9557127e852/Runtime/Mono/MonoBehaviour.cpp Line: 1328)
+

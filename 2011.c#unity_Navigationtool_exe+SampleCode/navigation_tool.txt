@@ -1,0 +1,20 @@
+
+소	개 		: Unity3D 내부 패스파인더 기능이 있기 전 2010년도에 직접 구현한 Pathfinder로 시작부터 마지막까지 제작했습니다.
+작업 기간 : 20110120-20110907
+작업 내용 : 
+			.start,block,goal 타입 설정 하여 navigation 구성하여 유닛 이동 처리
+			.unit간 충돌 처리로 간격 조정.
+   			.spline curve로 air craft unit들의 이동처리.
+   			.game에서 사용되는 level tool 기능.
+기술 내용 : 
+			.navigation mesh에 기하구조를 triangle collect를 하고 기준으로 navi cell들로 구성된 navigation construct 및 unit 이동.
+			.cell to cell로 이동 시 가는 방향의 좌우 scalar 값으로만 충돌로 인한 간격 조정 처리
+			.collision trigger로 들어오는 충돌 객체들에 대한 상호간 간격조정.
+			.spline curve(rns,tns,sns) 로 곡선 경로 유닛들 이동 처리
+자료 내용 : 
+기타 내용 : 키설명
+			w,a,s,d+fps camera
+			space+(navigationmesh)mouse leftclick:test unit
+			f2:debug fuction panel
+			+(num-pad):increase game speed
+			-(num-pad):decrease game speed

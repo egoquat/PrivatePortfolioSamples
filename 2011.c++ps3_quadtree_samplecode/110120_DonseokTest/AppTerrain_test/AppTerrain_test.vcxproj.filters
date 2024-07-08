@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Application">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="SpaceAccelarator">
+      <UniqueIdentifier>{aca8d63f-68f2-44fd-8fe9-49a167510ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{9c07d60c-aac0-40a8-b408-97817790a405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{5f49cb9b-ef61-4ac5-a81c-2a9cac46cf8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ForDebug">
+      <UniqueIdentifier>{489671ca-9338-45e1-894c-f5d80627fba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math3D">
+      <UniqueIdentifier>{84574365-542b-43aa-9a57-75b0a4f01734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Terrain">
+      <UniqueIdentifier>{7f437298-5a1b-4039-b2a2-dd27ba659037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Profiling">
+      <UniqueIdentifier>{a7b3e674-1428-46c8-88e0-6016c7a86276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NaviMesh">
+      <UniqueIdentifier>{4c5938fc-043e-452f-a9c1-87a74d10efb3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ApplicationMain.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceTree.cpp">
+      <Filter>SpaceAccelarator</Filter>
+    </ClCompile>
+    <ClCompile Include="Tri.cpp">
+      <Filter>SpaceAccelarator</Filter>
+    </ClCompile>
+    <ClCompile Include="TriContainer.cpp">
+      <Filter>SpaceAccelarator</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Objects.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessorObjects.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugingTexture.cpp">
+      <Filter>ForDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawForDebug.cpp">
+      <Filter>ForDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputText.cpp">
+      <Filter>ForDebug</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundaryVolume.cpp">
+      <Filter>Math3D</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainMesh.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTest.cpp">
+      <Filter>Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomTime.cpp">
+      <Filter>Profiling</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviCell.cpp">
+      <Filter>NaviMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviCells.cpp">
+      <Filter>NaviMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="NaviManager.cpp">
+      <Filter>NaviMesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ApplicationMain.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceTree.h">
+      <Filter>SpaceAccelarator</Filter>
+    </ClInclude>
+    <ClInclude Include="Tri.h">
+      <Filter>SpaceAccelarator</Filter>
+    </ClInclude>
+    <ClInclude Include="TriContainer.h">
+      <Filter>SpaceAccelarator</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonApp.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonMath.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonSingleton.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Objects.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessorObjects.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugingTexture.h">
+      <Filter>ForDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawForDebug.h">
+      <Filter>ForDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputText.h">
+      <Filter>ForDebug</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundaryVolume.h">
+      <Filter>Math3D</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainMesh.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainTest.h">
+      <Filter>Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomTime.h">
+      <Filter>Profiling</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviCell.h">
+      <Filter>NaviMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviCells.h">
+      <Filter>NaviMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="NaviManager.h">
+      <Filter>NaviMesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="vsi.nul" />
+  </ItemGroup>
+</Project>
